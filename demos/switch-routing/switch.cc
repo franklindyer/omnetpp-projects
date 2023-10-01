@@ -15,6 +15,8 @@ Define_Module(Switch);
 
 void Switch::initialize() {}
 
-void Switch::handleMessage(cMessage *msg) {}
+void Switch::handleMessage(cMessage *msg) {
+    delete msg;
+}
 
 void Switch::forwardMessage(cMessage *msg) {}

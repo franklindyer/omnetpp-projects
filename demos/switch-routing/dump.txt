@@ -1,6 +1,6 @@
 
 Running configuration General, run #0...
-Assigned runID=General-0-20231001-18:52:41-120
+Assigned runID=General-0-20231001-19:27:12-286
 Setting up network "SwitchRouting"...
 Initializing...
 Initializing channel SwitchRouting.hosts[0].out.channel, stage 0
@@ -22,7 +22,728 @@ Initializing module SwitchRouting.switches[0], stage 0
 Initializing module SwitchRouting.switches[1], stage 0
 
 Running simulation...
+** Event #1  t=0.795874504566  0% completed  (0% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #2  t=0.895874504566  0% completed  (0% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #3  t=1.591749009132  1% completed  (1% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #4  t=1.691749009132  1% completed  (1% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #5  t=1.797120776968  1% completed  (1% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 3
+** Event #6  t=1.859604212075  1% completed  (1% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 0
+** Event #7  t=1.897120776968  1% completed  (1% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #8  t=1.959604212075  1% completed  (1% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #9  t=2.387623513698  2% completed  (2% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #10  t=2.487623513698  2% completed  (2% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #11  t=3.183498018264  3% completed  (3% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #12  t=3.283498018264  3% completed  (3% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #13  t=3.594241553936  3% completed  (3% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #14  t=3.694241553936  3% completed  (3% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #15  t=3.71920842415  3% completed  (3% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 0
+** Event #16  t=3.81920842415  3% completed  (3% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #17  t=3.97937252283  3% completed  (3% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #18  t=4.07937252283  4% completed  (4% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #19  t=4.775247027396  4% completed  (4% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #20  t=4.875247027396  4% completed  (4% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #21  t=5.391362330904  5% completed  (5% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 3
+** Event #22  t=5.491362330904  5% completed  (5% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #23  t=5.571121531962  5% completed  (5% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #24  t=5.578812636225  5% completed  (5% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 0
+** Event #25  t=5.671121531962  5% completed  (5% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #26  t=5.678812636225  5% completed  (5% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #27  t=6.366996036528  6% completed  (6% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #28  t=6.466996036528  6% completed  (6% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #29  t=7.162870541094  7% completed  (7% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #30  t=7.188483107872  7% completed  (7% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #31  t=7.262870541094  7% completed  (7% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #32  t=7.288483107872  7% completed  (7% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #33  t=7.4384168483  7% completed  (7% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #34  t=7.5384168483  7% completed  (7% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #35  t=7.95874504566  7% completed  (7% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #36  t=8.05874504566  8% completed  (8% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #37  t=8.754619550226  8% completed  (8% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #38  t=8.854619550226  8% completed  (8% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #39  t=8.98560388484  8% completed  (8% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #40  t=9.08560388484  9% completed  (9% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #41  t=9.298021060375  9% completed  (9% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 0
+** Event #42  t=9.398021060375  9% completed  (9% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #43  t=9.550494054792  9% completed  (9% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #44  t=9.650494054792  9% completed  (9% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #45  t=10.346368559358  10% completed  (10% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #46  t=10.446368559358  10% completed  (10% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #47  t=10.782724661808  10% completed  (10% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #48  t=10.882724661808  10% completed  (10% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #49  t=11.142243063924  11% completed  (11% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #50  t=11.15762527245  11% completed  (11% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 0
+** Event #51  t=11.242243063924  11% completed  (11% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #52  t=11.25762527245  11% completed  (11% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #53  t=11.93811756849  11% completed  (11% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #54  t=12.03811756849  12% completed  (12% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #55  t=12.559307580474  12% completed  (12% total)   SwitchRouting.hosts[2] (Host, id=4)
+[INFO]	Host 2 sends message to Host 1
+** Event #56  t=12.579845438776  12% completed  (12% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 3
+** Event #57  t=12.659307580474  12% completed  (12% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #58  t=12.679845438776  12% completed  (12% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #59  t=12.733992073056  12% completed  (12% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #60  t=12.833992073056  12% completed  (12% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #61  t=13.017229484525  13% completed  (13% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #62  t=13.117229484525  13% completed  (13% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #63  t=13.529866577622  13% completed  (13% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #64  t=13.629866577622  13% completed  (13% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #65  t=14.325741082188  14% completed  (14% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #66  t=14.376966215744  14% completed  (14% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #67  t=14.425741082188  14% completed  (14% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #68  t=14.476966215744  14% completed  (14% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #69  t=14.8768336966  14% completed  (14% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 2
+** Event #70  t=14.9768336966  14% completed  (14% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #71  t=15.121615586754  15% completed  (15% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #72  t=15.221615586754  15% completed  (15% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #73  t=15.91749009132  15% completed  (15% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #74  t=16.01749009132  16% completed  (16% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #75  t=16.174086992712  16% completed  (16% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 3
+** Event #76  t=16.274086992712  16% completed  (16% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #77  t=16.713364595886  16% completed  (16% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #78  t=16.736437908675  16% completed  (16% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 2
+** Event #79  t=16.813364595886  16% completed  (16% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #80  t=16.836437908675  16% completed  (16% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #81  t=17.509239100452  17% completed  (17% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #82  t=17.609239100452  17% completed  (17% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #83  t=17.97120776968  17% completed  (17% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #84  t=18.07120776968  18% completed  (18% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #85  t=18.305113605018  18% completed  (18% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #86  t=18.405113605018  18% completed  (18% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #87  t=18.59604212075  18% completed  (18% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #88  t=18.69604212075  18% completed  (18% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #89  t=19.100988109584  19% completed  (19% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #90  t=19.200988109584  19% completed  (19% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #91  t=19.768328546648  19% completed  (19% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 3
+** Event #92  t=19.868328546648  19% completed  (19% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #93  t=19.89686261415  19% completed  (19% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #94  t=19.99686261415  19% completed  (19% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #95  t=20.455646332825  20% completed  (20% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 0
+** Event #96  t=20.555646332825  20% completed  (20% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #97  t=20.692737118716  20% completed  (20% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #98  t=20.792737118716  20% completed  (20% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #99  t=21.488611623282  21% completed  (21% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #100  t=21.565449323616  21% completed  (21% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #101  t=21.588611623282  21% completed  (21% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #102  t=21.665449323616  21% completed  (21% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #103  t=22.284486127848  22% completed  (22% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #104  t=22.3152505449  22% completed  (22% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 2
+** Event #105  t=22.384486127848  22% completed  (22% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #106  t=22.4152505449  22% completed  (22% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #107  t=23.080360632414  23% completed  (23% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #108  t=23.180360632414  23% completed  (23% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #109  t=23.362570100584  23% completed  (23% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #110  t=23.462570100584  23% completed  (23% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #111  t=23.87623513698  23% completed  (23% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #112  t=23.97623513698  23% completed  (23% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #113  t=24.174854756975  24% completed  (24% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #114  t=24.274854756975  24% completed  (24% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #115  t=24.672109641546  24% completed  (24% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #116  t=24.772109641546  24% completed  (24% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #117  t=25.118615160948  25% completed  (25% total)   SwitchRouting.hosts[2] (Host, id=4)
+[INFO]	Host 2 sends message to Host 3
+** Event #118  t=25.159690877552  25% completed  (25% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 3
+** Event #119  t=25.218615160948  25% completed  (25% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #120  t=25.259690877552  25% completed  (25% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #121  t=25.467984146112  25% completed  (25% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #122  t=25.567984146112  25% completed  (25% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #123  t=26.03445896905  26% completed  (26% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 0
+** Event #124  t=26.13445896905  26% completed  (26% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #125  t=26.263858650678  26% completed  (26% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #126  t=26.363858650678  26% completed  (26% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #127  t=26.95681165452  26% completed  (26% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #128  t=27.05681165452  27% completed  (27% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #129  t=27.059733155244  27% completed  (27% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #130  t=27.159733155244  27% completed  (27% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #131  t=27.85560765981  27% completed  (27% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #132  t=27.894063181125  27% completed  (27% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 2
+** Event #133  t=27.95560765981  27% completed  (27% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #134  t=27.994063181125  27% completed  (27% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #135  t=28.651482164376  28% completed  (28% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #136  t=28.751482164376  28% completed  (28% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #137  t=28.753932431488  28% completed  (28% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #138  t=28.853932431488  28% completed  (28% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #139  t=29.447356668942  29% completed  (29% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #140  t=29.547356668942  29% completed  (29% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #141  t=29.7536673932  29% completed  (29% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 0
+** Event #142  t=29.8536673932  29% completed  (29% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #143  t=30.243231173508  30% completed  (30% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #144  t=30.343231173508  30% completed  (30% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #145  t=30.551053208456  30% completed  (30% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #146  t=30.651053208456  30% completed  (30% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #147  t=31.039105678074  31% completed  (31% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #148  t=31.139105678074  31% completed  (31% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #149  t=31.613271605275  31% completed  (31% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 0
+** Event #150  t=31.713271605275  31% completed  (31% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #151  t=31.83498018264  31% completed  (31% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #152  t=31.93498018264  31% completed  (31% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #153  t=32.348173985424  32% completed  (32% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 3
+** Event #154  t=32.448173985424  32% completed  (32% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #155  t=32.630854687206  32% completed  (32% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #156  t=32.730854687206  32% completed  (32% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #157  t=33.426729191772  33% completed  (33% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #158  t=33.47287581735  33% completed  (33% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #159  t=33.526729191772  33% completed  (33% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #160  t=33.57287581735  33% completed  (33% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #161  t=34.145294762392  34% completed  (34% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #162  t=34.222603696338  34% completed  (34% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #163  t=34.245294762392  34% completed  (34% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #164  t=34.322603696338  34% completed  (34% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #165  t=35.018478200904  35% completed  (35% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #166  t=35.118478200904  35% completed  (35% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #167  t=35.332480029425  35% completed  (35% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #168  t=35.432480029425  35% completed  (35% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #169  t=35.81435270547  35% completed  (35% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #170  t=35.91435270547  35% completed  (35% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #171  t=35.94241553936  35% completed  (35% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #172  t=36.04241553936  36% completed  (36% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #173  t=36.610227210036  36% completed  (36% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #174  t=36.710227210036  36% completed  (36% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #175  t=37.1920842415  37% completed  (37% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #176  t=37.2920842415  37% completed  (37% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #177  t=37.406101714602  37% completed  (37% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #178  t=37.506101714602  37% completed  (37% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #179  t=37.677922741422  37% completed  (37% total)   SwitchRouting.hosts[2] (Host, id=4)
+[INFO]	Host 2 sends message to Host 0
+** Event #180  t=37.739536316328  37% completed  (37% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #181  t=37.777922741422  37% completed  (37% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #182  t=37.839536316328  37% completed  (37% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #183  t=38.201976219168  38% completed  (38% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #184  t=38.301976219168  38% completed  (38% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #185  t=38.997850723734  38% completed  (38% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #186  t=39.051688453575  39% completed  (39% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 2
+** Event #187  t=39.097850723734  39% completed  (39% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #188  t=39.151688453575  39% completed  (39% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #189  t=39.536657093296  39% completed  (39% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #190  t=39.636657093296  39% completed  (39% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #191  t=39.7937252283  39% completed  (39% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #192  t=39.8937252283  39% completed  (39% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #193  t=40.589599732866  40% completed  (40% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #194  t=40.689599732866  40% completed  (40% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #195  t=40.91129266565  40% completed  (40% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 2
+** Event #196  t=41.01129266565  41% completed  (41% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #197  t=41.333777870264  41% completed  (41% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #198  t=41.385474237432  41% completed  (41% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #199  t=41.433777870264  41% completed  (41% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #200  t=41.485474237432  41% completed  (41% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #201  t=42.181348741998  42% completed  (42% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #202  t=42.281348741998  42% completed  (42% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #203  t=42.770896877725  42% completed  (42% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #204  t=42.870896877725  42% completed  (42% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #205  t=42.977223246564  42% completed  (42% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #206  t=43.077223246564  43% completed  (43% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #207  t=43.130898647232  43% completed  (43% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 3
+** Event #208  t=43.230898647232  43% completed  (43% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #209  t=43.77309775113  43% completed  (43% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #210  t=43.87309775113  43% completed  (43% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #211  t=44.568972255696  44% completed  (44% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #212  t=44.6305010898  44% completed  (44% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 2
+** Event #213  t=44.668972255696  44% completed  (44% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #214  t=44.7305010898  44% completed  (44% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #215  t=44.9280194242  44% completed  (44% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #216  t=45.0280194242  45% completed  (45% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #217  t=45.364846760262  45% completed  (45% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #218  t=45.464846760262  45% completed  (45% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #219  t=46.160721264828  46% completed  (46% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #220  t=46.260721264828  46% completed  (46% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #221  t=46.490105301875  46% completed  (46% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 2
+** Event #222  t=46.590105301875  46% completed  (46% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #223  t=46.725140201168  46% completed  (46% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 3
+** Event #224  t=46.825140201168  46% completed  (46% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #225  t=46.956595769394  46% completed  (46% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #226  t=47.056595769394  47% completed  (47% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #227  t=47.75247027396  47% completed  (47% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #228  t=47.85247027396  47% completed  (47% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #229  t=48.34970951395  48% completed  (48% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #230  t=48.44970951395  48% completed  (48% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #231  t=48.522260978136  48% completed  (48% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 3
+** Event #232  t=48.548344778526  48% completed  (48% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #233  t=48.622260978136  48% completed  (48% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #234  t=48.648344778526  48% completed  (48% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #235  t=49.344219283092  49% completed  (49% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #236  t=49.444219283092  49% completed  (49% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #237  t=50.140093787658  50% completed  (50% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #238  t=50.209313726025  50% completed  (50% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #239  t=50.237230321896  50% completed  (50% total)   SwitchRouting.hosts[2] (Host, id=4)
+[INFO]	Host 2 sends message to Host 0
+** Event #240  t=50.240093787658  50% completed  (50% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #241  t=50.309313726025  50% completed  (50% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #242  t=50.319381755104  50% completed  (50% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 3
+** Event #243  t=50.337230321896  50% completed  (50% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #244  t=50.419381755104  50% completed  (50% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #245  t=50.935968292224  50% completed  (50% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #246  t=51.035968292224  51% completed  (51% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #247  t=51.73184279679  51% completed  (51% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #248  t=51.83184279679  51% completed  (51% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #249  t=52.0689179381  52% completed  (52% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 2
+** Event #250  t=52.116502532072  52% completed  (52% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #251  t=52.1689179381  52% completed  (52% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #252  t=52.216502532072  52% completed  (52% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #253  t=52.527717301356  52% completed  (52% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #254  t=52.627717301356  52% completed  (52% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #255  t=53.323591805922  53% completed  (53% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #256  t=53.423591805922  53% completed  (53% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #257  t=53.91362330904  53% completed  (53% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #258  t=53.928522150175  53% completed  (53% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 2
+** Event #259  t=54.01362330904  54% completed  (54% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #260  t=54.028522150175  54% completed  (54% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #261  t=54.119466310488  54% completed  (54% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #262  t=54.219466310488  54% completed  (54% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #263  t=54.915340815054  54% completed  (54% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #264  t=55.015340815054  55% completed  (55% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #265  t=55.710744086008  55% completed  (55% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #266  t=55.71121531962  55% completed  (55% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #267  t=55.78812636225  55% completed  (55% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 0
+** Event #268  t=55.810744086008  55% completed  (55% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #269  t=55.81121531962  55% completed  (55% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #270  t=55.88812636225  55% completed  (55% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #271  t=56.507089824186  56% completed  (56% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #272  t=56.607089824186  56% completed  (56% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #273  t=57.302964328752  57% completed  (57% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #274  t=57.402964328752  57% completed  (57% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #275  t=57.507864862976  57% completed  (57% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #276  t=57.607864862976  57% completed  (57% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #277  t=57.647730574325  57% completed  (57% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #278  t=57.747730574325  57% completed  (57% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #279  t=58.098838833318  58% completed  (58% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #280  t=58.198838833318  58% completed  (58% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #281  t=58.894713337884  58% completed  (58% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #282  t=58.994713337884  58% completed  (58% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #283  t=59.304985639944  59% completed  (59% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 3
+** Event #284  t=59.404985639944  59% completed  (59% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #285  t=59.5073347864  59% completed  (59% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #286  t=59.6073347864  59% completed  (59% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #287  t=59.69058784245  59% completed  (59% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #288  t=59.79058784245  59% completed  (59% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #289  t=60.486462347016  60% completed  (60% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #290  t=60.586462347016  60% completed  (60% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #291  t=61.102106416912  61% completed  (61% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #292  t=61.202106416912  61% completed  (61% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #293  t=61.282336851582  61% completed  (61% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #294  t=61.366938998475  61% completed  (61% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 2
+** Event #295  t=61.382336851582  61% completed  (61% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #296  t=61.466938998475  61% completed  (61% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #297  t=62.078211356148  62% completed  (62% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #298  t=62.178211356148  62% completed  (62% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #299  t=62.79653790237  62% completed  (62% total)   SwitchRouting.hosts[2] (Host, id=4)
+[INFO]	Host 2 sends message to Host 0
+** Event #300  t=62.874085860714  62% completed  (62% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #301  t=62.89653790237  62% completed  (62% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #302  t=62.89922719388  62% completed  (62% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #303  t=62.974085860714  62% completed  (62% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #304  t=62.99922719388  62% completed  (62% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #305  t=63.22654321055  63% completed  (63% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #306  t=63.32654321055  63% completed  (63% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #307  t=63.66996036528  63% completed  (63% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #308  t=63.76996036528  63% completed  (63% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #309  t=64.465834869846  64% completed  (64% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #310  t=64.565834869846  64% completed  (64% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #311  t=64.696347970848  64% completed  (64% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #312  t=64.796347970848  64% completed  (64% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #313  t=65.086147422625  65% completed  (65% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #314  t=65.186147422625  65% completed  (65% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #315  t=65.261709374412  65% completed  (65% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #316  t=65.361709374412  65% completed  (65% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #317  t=66.057583878978  66% completed  (66% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #318  t=66.157583878978  66% completed  (66% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #319  t=66.493468747816  66% completed  (66% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #320  t=66.593468747816  66% completed  (66% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #321  t=66.853458383544  66% completed  (66% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #322  t=66.9457516347  66% completed  (66% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #323  t=66.953458383544  66% completed  (66% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #324  t=67.0457516347  67% completed  (67% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #325  t=67.64933288811  67% completed  (67% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #326  t=67.74933288811  67% completed  (67% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #327  t=68.290589524784  68% completed  (68% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #328  t=68.390589524784  68% completed  (68% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #329  t=68.445207392676  68% completed  (68% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #330  t=68.545207392676  68% completed  (68% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #331  t=68.805355846775  68% completed  (68% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #332  t=68.905355846775  68% completed  (68% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #333  t=69.241081897242  69% completed  (69% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #334  t=69.341081897242  69% completed  (69% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #335  t=70.036956401808  70% completed  (70% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #336  t=70.087710301752  70% completed  (70% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #337  t=70.136956401808  70% completed  (70% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #338  t=70.187710301752  70% completed  (70% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #339  t=70.66496005885  70% completed  (70% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 0
+** Event #340  t=70.76496005885  70% completed  (70% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #341  t=70.832830906374  70% completed  (70% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #342  t=70.932830906374  70% completed  (70% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #343  t=71.62870541094  71% completed  (71% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #344  t=71.72870541094  71% completed  (71% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #345  t=71.88483107872  71% completed  (71% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 3
+** Event #346  t=71.98483107872  71% completed  (71% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #347  t=72.424579915506  72% completed  (72% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #348  t=72.524564270925  72% completed  (72% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #349  t=72.524579915506  72% completed  (72% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #350  t=72.624564270925  72% completed  (72% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #351  t=73.220454420072  73% completed  (73% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #352  t=73.320454420072  73% completed  (73% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #353  t=73.681951855688  73% completed  (73% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #354  t=73.781951855688  73% completed  (73% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #355  t=74.016328924638  74% completed  (74% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #356  t=74.116328924638  74% completed  (74% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #357  t=74.384168483  74% completed  (74% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 0
+** Event #358  t=74.484168483  74% completed  (74% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #359  t=74.812203429204  74% completed  (74% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #360  t=74.912203429204  74% completed  (74% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #361  t=75.355845482844  75% completed  (75% total)   SwitchRouting.hosts[2] (Host, id=4)
+[INFO]	Host 2 sends message to Host 3
+** Event #362  t=75.455845482844  75% completed  (75% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #363  t=75.479072632656  75% completed  (75% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #364  t=75.579072632656  75% completed  (75% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #365  t=75.60807793377  75% completed  (75% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #366  t=75.70807793377  75% completed  (75% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #367  t=76.243772695075  76% completed  (76% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 0
+** Event #368  t=76.343772695075  76% completed  (76% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #369  t=76.403952438336  76% completed  (76% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #370  t=76.503952438336  76% completed  (76% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #371  t=77.199826942902  77% completed  (77% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #372  t=77.276193409624  77% completed  (77% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 3
+** Event #373  t=77.299826942902  77% completed  (77% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #374  t=77.376193409624  77% completed  (77% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #375  t=77.995701447468  77% completed  (77% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #376  t=78.095701447468  78% completed  (78% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #377  t=78.10337690715  78% completed  (78% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 2
+** Event #378  t=78.20337690715  78% completed  (78% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #379  t=78.791575952034  78% completed  (78% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #380  t=78.891575952034  78% completed  (78% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #381  t=79.073314186592  79% completed  (79% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #382  t=79.173314186592  79% completed  (79% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #383  t=79.5874504566  79% completed  (79% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #384  t=79.6874504566  79% completed  (79% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #385  t=79.962981119225  79% completed  (79% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #386  t=80.062981119225  80% completed  (80% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #387  t=80.383324961166  80% completed  (80% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #388  t=80.483324961166  80% completed  (80% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #389  t=80.87043496356  80% completed  (80% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #390  t=80.97043496356  80% completed  (80% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #391  t=81.179199465732  81% completed  (81% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #392  t=81.279199465732  81% completed  (81% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #393  t=81.8225853313  81% completed  (81% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #394  t=81.9225853313  81% completed  (81% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #395  t=81.975073970298  81% completed  (81% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #396  t=82.075073970298  82% completed  (82% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #397  t=82.667555740528  82% completed  (82% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 3
+** Event #398  t=82.767555740528  82% completed  (82% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #399  t=82.770948474864  82% completed  (82% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #400  t=82.870948474864  82% completed  (82% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #401  t=83.56682297943  83% completed  (83% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #402  t=83.66682297943  83% completed  (83% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #403  t=83.682189543375  83% completed  (83% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 2
+** Event #404  t=83.782189543375  83% completed  (83% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #405  t=84.362697483996  84% completed  (84% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #406  t=84.462697483996  84% completed  (84% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #407  t=84.464676517496  84% completed  (84% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 3
+** Event #408  t=84.564676517496  84% completed  (84% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #409  t=85.158571988562  85% completed  (85% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #410  t=85.258571988562  85% completed  (85% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #411  t=85.54179375545  85% completed  (85% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #412  t=85.64179375545  85% completed  (85% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #413  t=85.954446493128  85% completed  (85% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #414  t=86.054446493128  86% completed  (86% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #415  t=86.261797294464  86% completed  (86% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #416  t=86.361797294464  86% completed  (86% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #417  t=86.750320997694  86% completed  (86% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #418  t=86.850320997694  86% completed  (86% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #419  t=87.401397967525  87% completed  (87% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 2
+** Event #420  t=87.501397967525  87% completed  (87% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #421  t=87.54619550226  87% completed  (87% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #422  t=87.64619550226  87% completed  (87% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #423  t=87.915153063318  87% completed  (87% total)   SwitchRouting.hosts[2] (Host, id=4)
+[INFO]	Host 2 sends message to Host 1
+** Event #424  t=88.015153063318  88% completed  (88% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #425  t=88.058918071432  88% completed  (88% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #426  t=88.158918071432  88% completed  (88% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #427  t=88.342070006826  88% completed  (88% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #428  t=88.442070006826  88% completed  (88% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #429  t=89.137944511392  89% completed  (89% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #430  t=89.237944511392  89% completed  (89% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #431  t=89.2610021796  89% completed  (89% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 2
+** Event #432  t=89.3610021796  89% completed  (89% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #433  t=89.8560388484  89% completed  (89% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #434  t=89.933819015958  89% completed  (89% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #435  t=89.9560388484  89% completed  (89% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #436  t=90.033819015958  90% completed  (90% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #437  t=90.729693520524  90% completed  (90% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #438  t=90.829693520524  90% completed  (90% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #439  t=91.120606391675  91% completed  (91% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 0
+** Event #440  t=91.220606391675  91% completed  (91% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #441  t=91.52556802509  91% completed  (91% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #442  t=91.62556802509  91% completed  (91% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #443  t=91.653159625368  91% completed  (91% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #444  t=91.753159625368  91% completed  (91% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #445  t=92.321442529656  92% completed  (92% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #446  t=92.421442529656  92% completed  (92% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #447  t=92.98021060375  92% completed  (92% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #448  t=93.08021060375  93% completed  (93% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #449  t=93.117317034222  93% completed  (93% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #450  t=93.217317034222  93% completed  (93% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #451  t=93.450280402336  93% completed  (93% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 3
+** Event #452  t=93.550280402336  93% completed  (93% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #453  t=93.913191538788  93% completed  (93% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #454  t=94.013191538788  94% completed  (94% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #455  t=94.709066043354  94% completed  (94% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #456  t=94.809066043354  94% completed  (94% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #457  t=94.839814815825  94% completed  (94% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 0
+** Event #458  t=94.939814815825  94% completed  (94% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #459  t=95.247401179304  95% completed  (95% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #460  t=95.347401179304  95% completed  (95% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #461  t=95.50494054792  95% completed  (95% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #462  t=95.60494054792  95% completed  (95% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #463  t=96.300815052486  96% completed  (96% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #464  t=96.400815052486  96% completed  (96% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #465  t=96.6994190279  96% completed  (96% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 1
+** Event #466  t=96.7994190279  96% completed  (96% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #467  t=97.044521956272  97% completed  (97% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 2
+** Event #468  t=97.096689557052  97% completed  (97% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #469  t=97.144521956272  97% completed  (97% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #470  t=97.196689557052  97% completed  (97% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #471  t=97.892564061618  97% completed  (97% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 1
+** Event #472  t=97.992564061618  97% completed  (97% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #473  t=98.559023239975  98% completed  (98% total)   SwitchRouting.hosts[3] (Host, id=5)
+[INFO]	Host 3 sends message to Host 2
+** Event #474  t=98.659023239975  98% completed  (98% total)   SwitchRouting.switches[1] (Switch, id=7)
+** Event #475  t=98.688438566184  98% completed  (98% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 3
+** Event #476  t=98.788438566184  98% completed  (98% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #477  t=98.84164273324  98% completed  (98% total)   SwitchRouting.hosts[1] (Host, id=3)
+[INFO]	Host 1 sends message to Host 0
+** Event #478  t=98.94164273324  98% completed  (98% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #479  t=99.48431307075  99% completed  (99% total)   SwitchRouting.hosts[0] (Host, id=2)
+[INFO]	Host 0 sends message to Host 2
+** Event #480  t=99.58431307075  99% completed  (99% total)   SwitchRouting.switches[0] (Switch, id=6)
+** Event #481  t=100  100% completed  (100% total)   
 
-<!> No more events, simulation completed -- at t=0s, event #0
+<!> Simulation time limit reached -- at t=100s, event #481
 
 Calling finish() at end of Run #0...

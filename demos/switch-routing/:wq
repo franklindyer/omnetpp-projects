@@ -1,0 +1,13 @@
+[General]
+network = SwitchRouting
+cmdenv-express-mode = false
+cmdenv-redirect-output = true
+**.cmdenv-log-level = trace
+cmdenv-output-file = "dump.txt"
+
+**.hosts[0].avgBetweenMsg = exponential(1.0)
+**.hosts[1].avgBetweenMsg = exponential(2.0)
+**.hosts[2].avgBetweenMsg = exponential(10.0)
+**.hosts[3].avgBetweenMsg = exponential(1.0)
+
+**.switches[*].expire = 30.0

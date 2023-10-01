@@ -1,4 +1,4 @@
 message HostMessage {
     int src;
-    int dest;
+    int dst;
 }

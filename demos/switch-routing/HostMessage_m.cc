@@ -182,7 +182,7 @@ Register_Class(HostMessage)
 HostMessage::HostMessage(const char *name, short kind) : ::omnetpp::cMessage(name,kind)
 {
     this->src = 0;
-    this->dest = 0;
+    this->dst = 0;
 }
 
 HostMessage::HostMessage(const HostMessage& other) : ::omnetpp::cMessage(other)
@@ -205,21 +205,21 @@ HostMessage& HostMessage::operator=(const HostMessage& other)
 void HostMessage::copy(const HostMessage& other)
 {
     this->src = other.src;
-    this->dest = other.dest;
+    this->dst = other.dst;
 }
 
 void HostMessage::parsimPack(omnetpp::cCommBuffer *b) const
 {
     ::omnetpp::cMessage::parsimPack(b);
     doParsimPacking(b,this->src);
-    doParsimPacking(b,this->dest);
+    doParsimPacking(b,this->dst);
 }
 
 void HostMessage::parsimUnpack(omnetpp::cCommBuffer *b)
 {
     ::omnetpp::cMessage::parsimUnpack(b);
     doParsimUnpacking(b,this->src);
-    doParsimUnpacking(b,this->dest);
+    doParsimUnpacking(b,this->dst);
 }
 
 int HostMessage::getSrc() const
@@ -232,14 +232,14 @@ void HostMessage::setSrc(int src)
     this->src = src;
 }
 
-int HostMessage::getDest() const
+int HostMessage::getDst() const
 {
-    return this->dest;
+    return this->dst;
 }
 
-void HostMessage::setDest(int dest)
+void HostMessage::setDst(int dst)
 {
-    this->dest = dest;
+    this->dst = dst;
 }
 
 class HostMessageDescriptor : public omnetpp::cClassDescriptor
@@ -335,7 +335,7 @@ const char *HostMessageDescriptor::getFieldName(int field) const
     }
     static const char *fieldNames[] = {
         "src",
-        "dest",
+        "dst",
     };
     return (field>=0 && field<2) ? fieldNames[field] : nullptr;
 }
@@ -345,7 +345,7 @@ int HostMessageDescriptor::findField(const char *fieldName) const
     omnetpp::cClassDescriptor *basedesc = getBaseClassDescriptor();
     int base = basedesc ? basedesc->getFieldCount() : 0;
     if (fieldName[0]=='s' && strcmp(fieldName, "src")==0) return base+0;
-    if (fieldName[0]=='d' && strcmp(fieldName, "dest")==0) return base+1;
+    if (fieldName[0]=='d' && strcmp(fieldName, "dst")==0) return base+1;
     return basedesc ? basedesc->findField(fieldName) : -1;
 }
 
@@ -429,7 +429,7 @@ std::string HostMessageDescriptor::getFieldValueAsString(void *object, int field
     HostMessage *pp = (HostMessage *)object; (void)pp;
     switch (field) {
         case 0: return long2string(pp->getSrc());
-        case 1: return long2string(pp->getDest());
+        case 1: return long2string(pp->getDst());
         default: return "";
     }
 }
@@ -445,7 +445,7 @@ bool HostMessageDescriptor::setFieldValueAsString(void *object, int field, int i
     HostMessage *pp = (HostMessage *)object; (void)pp;
     switch (field) {
         case 0: pp->setSrc(string2long(value)); return true;
-        case 1: pp->setDest(string2long(value)); return true;
+        case 1: pp->setDst(string2long(value)); return true;
         default: return false;
     }
 }

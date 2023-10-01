@@ -24,7 +24,7 @@
  * message HostMessage
  * {
  *     int src;
- *     int dest;
+ *     int dst;
  * }
  * </pre>
  */
@@ -32,7 +32,7 @@ class HostMessage : public ::omnetpp::cMessage
 {
   protected:
     int src;
-    int dest;
+    int dst;
 
   private:
     void copy(const HostMessage& other);
@@ -53,8 +53,8 @@ class HostMessage : public ::omnetpp::cMessage
     // field getter/setter methods
     virtual int getSrc() const;
     virtual void setSrc(int src);
-    virtual int getDest() const;
-    virtual void setDest(int dest);
+    virtual int getDst() const;
+    virtual void setDst(int dst);
 };
 
 inline void doParsimPacking(omnetpp::cCommBuffer *b, const HostMessage& obj) {obj.parsimPack(b);}

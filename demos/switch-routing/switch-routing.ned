@@ -1,7 +1,7 @@
 simple Host
 {
     parameters:
-        double avgBetweenMsg;
+        double betweenMsg;
     gates:
         input in;
         output out;
