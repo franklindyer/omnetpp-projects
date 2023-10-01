@@ -1,0 +1,28 @@
+
+Running configuration General, run #0...
+Assigned runID=General-0-20231001-18:52:41-120
+Setting up network "SwitchRouting"...
+Initializing...
+Initializing channel SwitchRouting.hosts[0].out.channel, stage 0
+Initializing channel SwitchRouting.hosts[1].out.channel, stage 0
+Initializing channel SwitchRouting.hosts[2].out.channel, stage 0
+Initializing channel SwitchRouting.hosts[3].out.channel, stage 0
+Initializing channel SwitchRouting.switches[0].out[0].channel, stage 0
+Initializing channel SwitchRouting.switches[0].out[1].channel, stage 0
+Initializing channel SwitchRouting.switches[0].out[2].channel, stage 0
+Initializing channel SwitchRouting.switches[1].out[0].channel, stage 0
+Initializing channel SwitchRouting.switches[1].out[1].channel, stage 0
+Initializing channel SwitchRouting.switches[1].out[2].channel, stage 0
+Initializing module SwitchRouting, stage 0
+Initializing module SwitchRouting.hosts[0], stage 0
+Initializing module SwitchRouting.hosts[1], stage 0
+Initializing module SwitchRouting.hosts[2], stage 0
+Initializing module SwitchRouting.hosts[3], stage 0
+Initializing module SwitchRouting.switches[0], stage 0
+Initializing module SwitchRouting.switches[1], stage 0
+
+Running simulation...
+
+<!> No more events, simulation completed -- at t=0s, event #0
+
+Calling finish() at end of Run #0...
