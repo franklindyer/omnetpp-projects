@@ -11,6 +11,7 @@ simple Switch
 {
     parameters:
         double expire;
+        int numHosts;
     gates:
         input in[];
         output out[];

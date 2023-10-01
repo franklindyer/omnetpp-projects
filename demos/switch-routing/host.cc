@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <omnetpp.h>
+
 #include "HostMessage_m.h"
 
 using namespace omnetpp;
@@ -41,7 +42,7 @@ void Host::generateMessage() {
     if (dst >= src) dst++;
 
     char msgname[50];
-    sprintf(msgname, "I love you, Host %d! Sincerely, Host %d ^3^", src, dst);
+    sprintf(msgname, "I love you, Host %d! Sincerely, Host %d ^3^", dst, src);
 
     HostMessage *msg = new HostMessage(msgname);
     msg->setSrc(src);
@@ -57,7 +58,7 @@ void Host::handleMessage(cMessage *msg) {
         generateMessage();
         scheduleMessage();
     } else {
-        EV_INFO << "Host " << getIndex() << " receives message: " << msg << "\n";
+        EV_INFO << "Host " << getIndex() << " receives message: '" << msg->getName() << "'\n";
         delete msg;
     }
 }
