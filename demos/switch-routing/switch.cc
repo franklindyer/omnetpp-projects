@@ -56,9 +56,12 @@ void Switch::handleMessage(cMessage *msg) {
     if (routeTable[src] == -1) {
         // Update route table entry corresponding to input gate, if currently empty/expired
         routeTable[src] = arriv;
-        scheduleAt(simTime()+par("expire"), expireEntry[src]);
         EV_INFO << "Switch " << getIndex() << " learns next-hop for Host " << src << "\n"; 
+    } else {
+        // If route table entry already exists, renew it by cancelling existing expiration
+        cancelEvent(expireEntry[src]);
     }
+    scheduleAt(simTime()+par("expire"), expireEntry[src]);
     forwardMessage(hMsg);
 }
 
@@ -73,6 +76,9 @@ void Switch::forwardMessage(HostMessage *msg) {
             if (i == arriv) continue;
             send(msg->dup(), "out", i);
         }
+    } else if (routeTable[dst] == arriv) {
+        // A switch should never forward a frame to the same gate from which it was received
+        EV_DETAIL << "Switch " << getIndex() << " receives packet from same gate as its next-hop, and ignores it.\n";
     } else {
         // Otherwise, use the next-hop in the route table
         EV_DETAIL << "Next-hop for destination " << dst << " is known to Switch " << getIndex() << "\n";
