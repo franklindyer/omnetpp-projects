@@ -1,0 +1,36 @@
+version 2
+run General-0-20231002-00:33:43-812
+attr configname General
+attr datetime 20231002-00:33:43
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network SwitchRouting
+attr processid 812
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.hosts[0].betweenMsg exponential(1.0)
+param **.hosts[1].betweenMsg exponential(2.0)
+param **.hosts[2].betweenMsg exponential(10.0)
+param **.hosts[3].betweenMsg exponential(1.0)
+param **.switches[**].expire 30.0
+param **.switches[**].numHosts 4
+
+scalar SwitchRouting.hosts[0] #sent 1256
+scalar SwitchRouting.hosts[0] #received-correct 390
+scalar SwitchRouting.hosts[0] #received-incorrect 86
+scalar SwitchRouting.hosts[1] #sent 556
+scalar SwitchRouting.hosts[1] #received-correct 650
+scalar SwitchRouting.hosts[1] #received-incorrect 179
+scalar SwitchRouting.hosts[2] #sent 79
+scalar SwitchRouting.hosts[2] #received-correct 794
+scalar SwitchRouting.hosts[2] #received-incorrect 43
+scalar SwitchRouting.hosts[3] #sent 537
+scalar SwitchRouting.hosts[3] #received-correct 607
+scalar SwitchRouting.hosts[3] #received-incorrect 145
+
