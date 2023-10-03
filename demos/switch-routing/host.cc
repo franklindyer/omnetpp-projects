@@ -8,7 +8,7 @@ using namespace omnetpp;
 
 class Host : public cSimpleModule {
     private:
-        cMessage *event;
+        cMessage *sendEvent;
         int numSent;
         int numReceived;
         int numRefused;
@@ -26,17 +26,21 @@ Define_Module(Host);
 
 Host::~Host()
 {
-    cancelAndDelete(event);
+    cancelAndDelete(sendEvent);
 }
 
 void Host::initialize() {
-    event = new cMessage("message generation event");
+    numSent = 0;
+    numReceived = 0;
+    numRefused = 0;
+
+    sendEvent = new cMessage("message generation event");
     scheduleMessage();
 }
 
 void Host::scheduleMessage() {
-    double waitTime = par("betweenMsg");
-    scheduleAt(simTime()+waitTime, event);
+    double waitTime = par("betweenMsg").doubleValue();
+    scheduleAt(simTime()+waitTime, sendEvent);
 }
 
 void Host::generateMessage() {
@@ -59,7 +63,7 @@ void Host::generateMessage() {
 }
 
 void Host::handleMessage(cMessage *msg) {
-    if (msg == event) {
+    if (msg == sendEvent) {
         generateMessage();
         scheduleMessage();
     } else {
